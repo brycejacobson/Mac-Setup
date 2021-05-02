@@ -33,8 +33,8 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'php@7.3'
-brew 'php@7.2'
+brew 'php@7.4'
+# brew 'php@7.2'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
@@ -46,6 +46,7 @@ brew 'nvm'
 brew 'redis'
 brew 'yarn'
 brew 'nativefier'
+brew 'youtube-dl'
 
 # Apps
 cask 'iterm2'
@@ -58,11 +59,11 @@ cask '1password-cli'
 #cask 'alfred'
 #cask 'caffeine'
 #cask 'dbngin'
-#cask 'discord'
+cask 'discord'
 cask 'docker'
 #cask 'figma'
 cask 'firefox'
-cask 'github'
+#cask 'github'
 #cask 'google-backup-and-sync'
 cask 'google-chrome'
 #cask 'gpg-suite'
@@ -92,10 +93,12 @@ cask 'itsycal'
 cask 'lastfm'
 cask 'gray'
 cask 'lulu'
+cask 'raindropio'
+cask 'appcleaner'
 
 
 # Quicklook
-cask 'qlcolorcode'
+# cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
@@ -121,3 +124,7 @@ cask 'font-fira-code-nerd-font'
 #mas 'Things', id: 904280696
 #mas 'Tweetbot', id: 1384080005
 mas 'Downlink', id: 1454269192
+mas 'ToothFairy', id: 1191449274
+mas 'Save to Raindrop.io', id: 1549370672
+mas 'Hush Nag Blocker', id: 1544743900
+mas 'Adblock for Safari', id: 1402042596
